@@ -1,78 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts: Inter (body), Playfair Display (headings), Poppins/Merriweather (available, currently unused) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>Noor Tert</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <title>Noor Tert's Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
+
      <body>
         <header>
             <h1>Noor Tert</h1>
             <nav>
               <ul>
                 <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </nav>
         </header>
+
     <main>
-      <div class="hero">
+      <!-- intro Section -->
+      <section class="hero" id="about">
         <p class="eyebrow" id="eyebrow-text">UX ENGINEER</p>
-        <p>A passionate creator with interest for aesthetics and storytelling.</p>
-        <button>Learn more</button>
-      </div>
+
+        <p>I'm a passionate creator with interest for aesthetics and storytelling.</p>
+        <p>
+            With a background in <strong> Game design &amp; Graphics</strong> and my journey into
+            <strong>Ux engineering</strong>, I aim to create experiences that are unique and meaningful.
+        </p>
+        <button id="learn-more">Learn more</button>
+        <p class="expandable" id="more-info">
+                I'm currently studying at CHAS Academy, building projects that combine HTML, CSS, and JavaScript
+                with thoughtful UX design - and integrating AI in my workflow critically and intentionally. 
+                I have a deep interest in the intersection of technology and design, and my background in game design and graphics from my previous studies at Uppsala University
+                has given me a unique perspective on creating engaging, immersive experiences - one I want to bring into my work as a web developer. I am always looking for new challenges and opportunities to learn and grow as a creative.
+        </p>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills-section" id="skills">  
+        <h2 class="skills-header">
+            Skills
+            <span class="line"></span>
+        </h2>
+            <ul class="skills-list">
+                <li class="skill-card">
+                    <h3>HTML &amp; CSS</h3>
+                    <p>Semantic markup, responsive layout, Flexbox and Grid.</p>
+                </li>
+                <li class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, events, array methods, debugging.</p>
+                </li>
+                <li class="skill-card">
+                    <h3>UX / UI Design</h3>
+                    <p>Wireframing, visual hierarchy, typography, accessibility basics.</p>
+                </li>
+                <li class="skill-card">
+                    <h3>Tools</h3>
+                    <p>VS Code, Git &amp; GitHub, Figma.</p>
+                </li>
+            </ul>
+        </section>
+
+      <!--  projects section -->
       <section class="works-section">
-            <div class="works-inner">
-        <div class="section-header">
-            <h2>Selected Works</h2>
+        <h2 class="section-header">
+            Selected Works
             <span class="line"></span>
             <a href="#" class="view-all">View all works</a>
-        </div>
-            <div class="projects">
-                <div class="project-card">
-               <a href="https://github.com/noortert/todo-App.git" target="_blank">
-               <img src="images/project1.jpeg" alt="Project screenshot">
-               </a>
-               <h3>To do App</h3>
-               <p>A simple to-do app done as a part of a school project. Built with HTML, CSS, and JavaScript.</p>
-                </div>
-                <div class="project-card">
-               <img src="https://placehold.co/400x300" alt="Project screenshot">
-               <h3>Project Name</h3>
-               <p>A short sentence of what this project is.</p>
-                </div>
-                <div class="project-card">
-               <img src="https://placehold.co/400x300" alt="Project screenshot">
-               <h3>Project Name</h3>
-               <p>A short sentence of what this project is.</p>
-               </div>
-             </div>
-            </div>
+        </h2>
+            <section class="projects" id="projects">
+                <article class="project-card"> 
+                   <a href="https://github.com/noortert/todo-App.git" target="_blank">
+                      <img src="images/project1.jpeg" alt="Project screenshot">
+                   </a>
+                   <h3>To-do App</h3>
+                   <p>A simple to-do app done as a part of a school project. Built with HTML, CSS, and JavaScript.</p>
+               </article>
+               <article class="project-card">
+                     <img src="images/workinprogress.jpeg" alt="placeholder - cat standing infront of a screen and a work in progress text">
+                     <h3>Work in Progress</h3>
+                     <p>Future projects will be added here.</p>
+                </article>
+                <article class="project-card">
+                    <img src="images/workinprogress.jpeg" alt="placeholder - cat standing infront of a screen and a work in progress text">
+                    <h3>Work in Progress</h3>
+                    <p>Future projects will be added here.</p>
+                </article>
+             </section>
         </section>
       </main>
 
-
-        <footer>
-            <p class="eyebrow1">Let's connect</p>
-            <div class="social-links">
-                <a href="mailto:noor.tert@student.chasacademy.se">Email</a>
-                <a href="https://github.com/noortert" target="_blank">GitHub</a>
-                <a href="https://linkedin.com/in/noor-tert-0a777a1b2/" target="_blank">LinkedIn</a>
-
-
-            </div>
+        <footer id="contact">
+            <p class="contact-section">Let's connect</p>
+            <ul class="social-links">
+             <li>
+               <a href="mailto:noor.tert@student.chasacademy.se" aria-label="Email">
+               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m2 7 10 6 10-6" />
+            </svg>
+           </a>
+             </li>
+             <li>
+               <a href="https://github.com/noortert" target="_blank" aria-label="GitHub">
+               <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2C6.48 2 2 6.58 2 12.17c0 4.47 2.87 8.26 6.84 9.6.5.1.68-.22.68-.49
+                         0-.24-.01-.88-.01-1.73-2.78.62-3.37-1.37-3.37-1.37-.46-1.2-1.11-1.52-1.11-1.52
+                         -.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.57 2.34 1.11 2.91.85
+                         .09-.67.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75
+                         -.1-.26-.45-1.3.1-2.72 0 0 .84-.28 2.75 1.05a9.4 9.4 0 0 1 5 0c1.91-1.33 2.75-1.05
+                         2.75-1.05.55 1.42.2 2.46.1 2.72.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.8-4.57
+                         5.06.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49A10.02 10.02
+                         0 0 0 22 12.17C22 6.58 17.52 2 12 2Z" />
+            </svg>
+           </a>
+            </li>
+            <li>
+              <a href="https://linkedin.com/in/noor-tert-0a777a1b2/" target="_blank" aria-label="LinkedIn">
+               <svg viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 3A2 2 0 0 1 21 5v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14Z" fill="none" stroke="none"/>
+                <rect x="2" y="2" width="20" height="20" rx="2" fill="none" stroke="none"/>
+                <circle cx="6.5" cy="6.5" r="1.8"/>
+                <path d="M4.8 9.5h3.4V20H4.8zM10.5 9.5h3.3v1.5c.5-.9 1.6-1.7 3.2-1.7 3.1 0 3.6 2 3.6 4.6V20h-3.4v-5.3c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V20h-3.4V9.5z"/>
+            </svg>
+            </a>
+           </li>
+           </ul>
+          <small class="footer-text">&copy; 2026 Noor Tert</small>  
         </footer>
 
      </body>
 
-</html>
+     </html>
 
