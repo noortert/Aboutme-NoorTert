@@ -40,6 +40,7 @@ The hardest part of this project was building the interactive pieces — the typ
 
 ## Future Improvements
 
-- Finish the "View all works" page once I have more projects and a clearer layout idea
-- Keep refining responsiveness, especially at extreme zoom levels
-- Add a photo of myself to the intro section
+- Finish the "View all works" page once I have more projects and a clearer layout idea.
+- Keep refining responsiveness.
+- Add a photo of myself to the intro section.
+  
