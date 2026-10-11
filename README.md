@@ -14,11 +14,11 @@ My design vision was a sleek, editorial aesthetic: clean typography, generous sp
 
 ## Features
 
-- **About Me** section with a typing animation that cycles through my roles, plus a "Read more" feature to reveal extra detail without cluttering the page
-- **Skills** section describing the tools and skills I'm developing through my education
-- **Projects** section with cards that use a pop-up animation on hover
-- Links to my email, GitHub, and LinkedIn
-- Hover effects and keyboard navigation throughout
+- **About Me** section with a typing animation that cycles through my roles, plus a "Read more" feature to reveal extra detail without cluttering the page.
+- **Skills** section describing the tools and skills I'm developing through my education.
+- **Projects** section with cards that use a pop-up animation on hover.
+- Links to my email, GitHub, and LinkedIn.
+- Hover effects and keyboard navigation throughout.
 
 ## Responsive Design
 
